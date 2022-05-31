@@ -5,7 +5,7 @@
   "scripts": {
     "build": "run-s build:*",
     "build:clean": "rm -rf ./lib",
-    "build:lib": "tsc --module esnext --outDir lib",
+    "build:lib": "tsc --project tsconfig.build.json",
     "test": "jest"
   },
   "module": "./lib/index.js",

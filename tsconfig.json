@@ -9,7 +9,7 @@
     "forceConsistentCasingInFileNames": true,
     // "noEmit": false,
     "esModuleInterop": true,
-    "module": "es6",
+    "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -22,7 +22,7 @@
     "incremental": false,
     "declaration": true,
     "rootDir": "./src",
-    "outDir": "lib/esm"
+    "outDir": "lib"
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"],
