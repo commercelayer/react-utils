@@ -1,3 +1,3 @@
 module.exports = {
-  extends: "./configs/release.config.js"
+  "extends": "./configs/semantic-release.js"
 }
