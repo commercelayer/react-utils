@@ -1,6 +1,6 @@
 {
   "name": "@commercelayer/react-utils",
-  "version": "1.0.0-alpha.3",
+  "version": "1.0.0-beta.2",
   "description": "Shared utils for Commerce Layer's React apps",
   "scripts": {
     "build": "run-s build:*",
