@@ -97,3 +97,15 @@ export const Footer = () => {
   )
 }
 ```
+
+### Configure semantic-release in your project
+
+It is possibile to use a sharable semantic-release configuration file, just by creating a new `release.config.js` with the following content
+
+```
+module.exports = {
+  extends: "@commercelayer/react-utils/configs/semantic-release.js",
+}
+```
+
+There is no need to add semantic-release packages to your repository, since they are already included as depedencies here.
