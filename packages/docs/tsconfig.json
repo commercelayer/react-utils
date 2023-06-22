@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "paths": {
+      // TODO: we need to keep them in sync with the `mfe-elements` package.
+      "#providers/*": [
+        "../mfe-elements/src/providers/*"
+      ],
+      "#ui/*": [
+        "../mfe-elements/src/ui/*"
+      ],
+      "#styles/*": [
+        "../mfe-elements/src/styles/*"
+      ],
+    }
+  },
+  "include": [
+    ".storybook/*.tsx",
+    "src",
+    ".eslintrc.cjs",
+    "*.config.cjs",
+    "*.config.ts",
+    "*.config.js"
+  ]
+}
